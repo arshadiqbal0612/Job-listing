@@ -1,0 +1,123 @@
+.main_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 25px 15px 25px;
+    background-color: rgb(218, 213, 213);
+    flex-wrap: wrap;
+    min-height: 100vh;
+    max-height: 100%;
+    /* border-width: 2px; */
+    margin-block: 10px;
+}
+
+.inner_wrapper {
+    width: calc(100% - 50%);
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.job_card_style {
+    border-bottom: 1px solid gray;
+    padding: 5px 0 0 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.job_title_location_style {
+    padding-left: 10px;
+}
+
+.dropdownStyle {
+    background-color: rgb(218, 213, 213);
+    color: white;
+}
+
+/* pagination  */
+
+/* card style  */
+/* .paginationTopWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.nojob{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+} */
+
+.paginationTopWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .pagination button {
+    background: blue;
+    color: white;
+    padding: 8px 9px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 80px;
+  }
+  
+  .pagination button.disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
+  .pagination button.active {
+    background: blue;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .pagination {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .pagination button {
+      width: 40px;
+      margin: 5px;
+    }
+  }
+  
+  .inner_wrapper {
+    width: calc(100% - 50%);
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px; /* Add padding for better spacing */
+  
+    /* New styles for responsiveness */
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+  }
+  
+  .job_card_style {
+    border-bottom: 1px solid gray;
+    padding: 5px 0 0 15px;
+    display: flex;
+    cursor: pointer;
+  
+    /* New styles for responsiveness */
+    flex-direction: column; /* Stack title and location vertically */
+  }
+  
+  .job_title_location_style {
+    padding-left: 10px;
+  
+    /* New styles for responsiveness */
+    margin-top: 5px; /* Add margin to separate title and location */
+  }
+  

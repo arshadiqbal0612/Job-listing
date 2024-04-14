@@ -1,0 +1,50 @@
+.main_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 25px 15px 25px;
+    background-color: rgb(218, 213, 213);
+    flex-wrap: wrap;
+    min-height: 100vh;
+    max-height: 100%;
+    /* border-width: 2px; */
+}
+
+.inner_wrapper {
+    width: calc(100% - 50%);
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.job_card_style {
+    border-bottom: 1px solid gray;
+    padding: 5px 0 0 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.job_title_location_style {
+    padding-left: 10px;
+}
+
+.dropdownStyle {
+    background-color: rgb(218, 213, 213);
+    color: white;
+}
+
+/* pagination  */
+
+/* card style  */
+.paginationTopWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.nojob{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
